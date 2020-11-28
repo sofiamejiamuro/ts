@@ -27,3 +27,40 @@ creates a esconfig.json file
 ```js
 tsc *.ts -w
 ```
+
+### ¿Qué son los tipos de datos?
+ 
+Una introducción a los diferentes tipos de datos que existen en TypeScript.
+
+Se dividen en dos:
+
+**Primitivos**
+
+- Booleanos.
+- Números.
+- Strings.
+- Tipo Any.
+- Arreglos.
+- Tuplas.
+- Enumeraciones
+- Retorno void
+- Null
+- Undefined
+
+**Compuestos**
+
+- Objetos Literales
+```js
+let persona = {
+  name: 'Sofia',
+  lastName: Mejia
+}
+```
+- Clases
+```js
+class Persona {
+  name;
+  lastName
+}
+````
+- Funciones
